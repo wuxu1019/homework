@@ -7,9 +7,9 @@
         <key>CFBundlePackageType</key>
         <string>APPL</string>
         <key>CFBundleShortVersionString</key>
-        <string>1.3</string>
+        <string>2.0</string>
         <key>SLKReleaseName</key>
-        <string>DATE</string>
+        <string>EAGLE</string>
         <key>CFBundleVersion</key>
         <string>370000</string>
         <key>LSRequiresIPhoneOS</key>
