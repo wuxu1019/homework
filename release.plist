@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-        <key>CFBundleName</key>
-        <string>MYAPP</string>
-        <key>CFBundlePackageType</key>
-        <string>APPL</string>
-        <key>CFBundleShortVersionString</key>
-        <string>1.3</string>
-        <key>SLKReleaseName</key>
-        <string>DATE</string>
-        <key>CFBundleVersion</key>
-        <string>370000</string>
-        <key>LSRequiresIPhoneOS</key>
-        <true />
-</dict>
-</plist>
+b'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">\n<plist version="1.0">\n<dict>\n        <key>CFBundleName</key>\n        <string>MYAPP</string>\n        <key>CFBundlePackageType</key>\n        <string>APPL</string>\n        <key>CFBundleShortVersionString</key>\n        <string>1.3</string>\n        <key>SLKReleaseName</key>\n        <string>DATE</string>\n        <key>CFBundleVersion</key>\n        <string>370000</string>\n        <key>LSRequiresIPhoneOS</key>\n        <true />\n</dict>\n</plist>'<>
