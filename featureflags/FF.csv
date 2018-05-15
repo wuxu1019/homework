@@ -1,7 +1,7 @@
-Flag_A, OFF
+Flag_A, ON
 Flag_B, OFF
-Flag_C, ON
-Flag_D, OFF
-Flag_E, OFF
-Flag_P, OFF
-Flag_Q, ON
+Flag_C, OFF
+Flag_D, ON
+Flag_E, ON
+Flag_F, ON
+Flag_G, ON
