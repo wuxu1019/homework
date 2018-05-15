@@ -1,0 +1,32 @@
+1. UnitTest for RepoOps Class
+
+2. Test different content of release_info.csv
+   No release info
+   one release info
+   two release info
+   fifty release info
+   exception happen when all candidates in release_info.csv have been released
+
+3. Test if branch is created and plist is changed to next release
+   do some commit then do release
+   no commit then do release
+
+4. Test if the feature flag report is accurate on different situation
+   add feature
+   delete feature
+   Turn ON feature
+   Turn OFF feature
+   for the first release Apple, shoule be compatible
+
+5. Test if github API Read/Write has
+   conflict
+   several people do submission
+   exception
+
+6. Test Authorizations for different user
+   different scope permission
+   if user is allowed to do the release
+
+7. Test if the tool can be used in different OS and what is the dependency and how to setup
+
+
