@@ -1,0 +1,35 @@
+!IMPORTANT! Pls readme before make a release operation
+
+1 >  The script is running on both python2.7/python3.6 environment
+2 >  Here is module dependencies of the tools, pls install module with the cmd below:
+
+     >> pip install pygithub
+     or
+     >> pip3 install pygithub
+
+
+3 >  Generate [OAuth token] with cmd below for repo Authorizations,
+     replace <your_username> with username
+     replace <your_2fa_OTP_code> with OTP code from your one-time password application on your phone
+     you may also visit https://developer.github.com/v3/guides/getting-started/ for more detail on github Authorizations
+
+     >> curl -i -u <your_username> -H "X-GitHub-OTP: <your_2fa_OTP_code>" \
+    -d '{"scopes": ["repo", "user"], "note": "getting-started"}' \
+    https://api.github.com/authorizations
+
+
+
+4 >  Find [OAuth token] in JSON stream. Treat OAuth tokens like passwords
+     Example: "token": "b80657ee0cc2dd126a728c0391049ebdeff2718b",
+
+5 >  Running the tool make_a_release
+
+     >> python make_a_release.py
+
+     Example:
+     >>python make_a_release.py
+     Pls input [OAuth token], HELP: You can ref README.txt on how to get [OAuth token]
+     b80657ee0cc2dd126a728c0391049ebdeff2718b
+
+
+
